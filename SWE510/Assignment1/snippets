@@ -1,0 +1,40 @@
+	for (String[] array: nodesArray) {
+			for (String element: array) {
+				System.out.println(element);
+				
+
+
+System.out.println(nodes);
+
+
+
+for (String[] node: nodesArray) {
+			float x1 = node[];
+			float x2 = node[];
+			float x1 = node[];
+			float x1 = node[];
+			
+
+			
+		for (double[] array: distanceMatrix) {
+			for (double element: array) {
+				System.out.println(element);
+			}
+		}
+		
+		
+		
+ArrayList<String> nodeNumbers = new ArrayList<String>();
+
+
+
+
+		for (String[] array: permutations) {
+			for (String element: array) {
+				System.out.println(element);
+			}
+		}
+		
+		
+		
+Integer.parseInt()
