@@ -1,0 +1,7 @@
+variable1=43
+variable2=variable1-41
+variable3=variable2*variable1*(72-69)
+variable1
+variable2
+variable1+10*4-2
+variable3-33
