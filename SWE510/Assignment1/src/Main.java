@@ -16,7 +16,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.awt.geom.Point2D;
 
-public class Deniz_Aslan {
+public class Main {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		
