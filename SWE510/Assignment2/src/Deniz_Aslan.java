@@ -22,7 +22,7 @@ public class Deniz_Aslan {
 		Scanner input = new Scanner(System.in).useLocale(Locale.US); // locale fixes comma/period issue
 		
 		// Get polynomial degree from user
-        System.out.println("Please enter the degree of your polinomial (max 3 for this assignment): ");
+        System.out.println("Please enter the degree of your polynomial (max 3 for this assignment): ");
         int degree = input.nextInt();
         
         // Get coefficients from user, print out
