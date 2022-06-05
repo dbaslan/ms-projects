@@ -54,7 +54,7 @@ public class Deniz_Aslan {
         
 		// Create polynomial object
 		Polynomial p = new Polynomial(coefficients);
-		p.setDelta(delta);
+		p.setDeltaX(delta);
 		
 		// Calculate integral value, print out
 		double result = p.computeIntegral(beginning, end);

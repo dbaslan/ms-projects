@@ -43,7 +43,7 @@ public class Polynomial {
 		}
 		
 		// Setter for delta
-		public void setDelta(double deltaX) {
+		public void setDeltaX(double deltaX) {
 			if (deltaX > 0)
 				delta = deltaX;
 			else
