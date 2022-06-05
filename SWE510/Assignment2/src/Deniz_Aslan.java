@@ -22,26 +22,23 @@ public class Deniz_Aslan {
 		Scanner input = new Scanner(System.in).useLocale(Locale.US); // locale fixes comma/period issue
 		
 		// Get polynomial degree from user
-        System.out.println("Please enter the degree of your polinomial (3 for this assignment): ");
+        System.out.println("Please enter the degree of your polinomial (max 3 for this assignment): ");
         int degree = input.nextInt();
         
         // Get coefficients from user, print out
         for (int i = 0; i <= degree; i++) {
-        	System.out.println("Please enter the coefficient of x^"+i+": ");
+        	System.out.println("Please enter the coefficient of x^" + i + ": ");
         	int c = input.nextInt();
         	coefficients.add(c);
         }
       
-        System.out.println("The coefficients entered by user: ");
-        for (int i = 0; i < coefficients.size(); i++) { 		      
-        	System.out.println(coefficients.get(i)); 		
-        }   
+        System.out.println("The coefficients entered by user: " + coefficients);
         
         // Get delta value from user, print out
         System.out.println("Please enter the delta value: ");
         double delta = input.nextDouble();
         
-        System.out.println("The delta value entered by user: "+delta);
+        System.out.println("The delta value entered by user: " + delta);
 		
         // Get range from user, print out
         System.out.println("Please enter the beginning of the range: ");
@@ -50,7 +47,7 @@ public class Deniz_Aslan {
         System.out.println("Please enter the end of the range: ");
         double end = input.nextDouble();
         
-        System.out.println("The range entered by user: ["+beginning+","+end+"]");
+        System.out.println("The range entered by user: [" + beginning + "," + end + "]");
         
         // Close scanner
         input.close();
@@ -61,7 +58,7 @@ public class Deniz_Aslan {
 		
 		// Calculate integral value, print out
 		double result = p.computeIntegral(beginning, end);
-        System.out.println("The integral is approximately: "+result);
+        System.out.println("The integral is approximately: " + result);
 		
 	}
 	

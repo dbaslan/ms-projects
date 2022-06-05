@@ -36,7 +36,7 @@ public class Polynomial {
 			double currentX = minX;
 			
 			while (currentX < maxX) {
-				integral += delta*valueAt(currentX);
+				integral += delta * valueAt(currentX);
 				currentX += delta;
 			}
 			return integral;
