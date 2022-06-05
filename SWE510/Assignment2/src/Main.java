@@ -13,7 +13,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class Deniz_Aslan {
+public class Main {
 
 	public static void main(String[] args) {
 		
